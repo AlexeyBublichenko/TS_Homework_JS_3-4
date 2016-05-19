@@ -1,0 +1,59 @@
+/*Homework_JS_3-4-Alexey Bublichenko*/
+/*==========================   NORMALISE   ==========================*/
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Sans-Serif;
+	font-weight: normal;
+}
+/*==========================   WRAPPER   ==========================*/
+.wrapper {
+	margin: 0 auto;
+}
+/*==========================   CONTENT   ==========================*/
+.test {
+	margin: 10px 10px;
+	color: #000000;
+	background: #ffffff;
+}
+.test__name {
+	margin: 21px 0 44px;
+	padding-left: 259px;
+	font-size: 19px;
+	letter-spacing: -0.1px;
+}
+.question {
+	margin: 0px 0px 16px 86px;
+	border:none;
+}
+.question__text {
+	padding-bottom: 10px;
+	font-size: 19px;
+	letter-spacing: -0.2px;
+}
+.answer {
+	display: block;
+	margin: 4px 0px 0px 28px;
+}
+.answer__checkbox {
+	transform: scale(1.4);
+}
+.answer__text {
+	padding-left: 9px;
+	font-size: 17px;
+	letter-spacing: -0.45px;
+	cursor: pointer;
+}
+.submit-button {
+	display: block;
+	margin: 53px 0px 0px 242px;
+	padding: 0px 45px 0px 43px;
+	border: solid 2px #000000;
+	border-radius: 2px;
+	background-color: #cfe2f3;
+	font-size: 19px;
+	text-align: center;
+	line-height: 51px;
+	letter-spacing: -0.05px;
+	cursor: pointer;
+}
